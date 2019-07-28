@@ -1,11 +1,11 @@
 # AraSIF - Arabic Sentence Embeddings using Smooth Inverse Frequency (SIF)
 
-This is a minimal example for computing sentence embeddings for Arabic as described [Kalimuthu et. al (2019)](https://sites.google.com/view/wanlp-2019/home#h.p_Bd2Gh1L0z6cE): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
+This is a minimal example for computing sentence embeddings for Arabic as described [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
 
 This code is adapted from the [original SIF implementation](https://github.com/PrincetonML/SIF_mini_demo) and is written in [python](https://www.python.org). In addition, it requires [gensim](https://radimrehurek.com/gensim), [numpy](http://numpy.org), [scipy](https://www.scipy.org), [pickle](https://docs.python.org/3/library/pickle.html), and [sklearn](https://scikit-learn.org) packages.
 
 #### Install
-To install all the dependencies, `conda` or `virtualenv` environment is recommended. After activating an isolated environment, install the requirements using pip:
+To install all the dependencies, `virtualenv` or `conda` environment is recommended. After activating an isolated environment, please install the requirements using pip:
 
 ```
 $ pip install -r requirements.txt 
@@ -78,19 +78,25 @@ The `wikiextractor` project is maintained by [@attardi](https://github.com/attar
 
 
 #### References
-For more details about how we leverage these sentence embeddings for *incremental domain adaptation*, please see our paper: [Kalimuthu et. al (2019)](https://sites.google.com/view/wanlp-2019/home#h.p_Bd2Gh1L0z6cE): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
+For more details about how we leverage these sentence embeddings for *incremental domain adaptation*, please see our paper: [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
 
 -------
 
-If you use this code, please consider citing our paper:
+If you use find our work relevant and useful or if use this code, please consider citing our paper:
 
 ```
-@article{Kalimuthu2019WANLP,
-	author = {Marimuthu Kalimuthu and Michael Barz and Daniel Sonntag}, 
-	title = {Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings}, 
-	booktitle = {Proceedings of The Fourth Arabic Natural Language Processing Workshop (WANLP)},
-	venue = {Florence, Italy},
-	year = {2019}
+@inproceedings{kalimuthu-etal-2019-incremental,
+    title = "Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings",
+    author = "Kalimuthu, Marimuthu  and
+      Barz, Michael  and
+      Sonntag, Daniel",
+    booktitle = "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-4601",
+    pages = "1--10",
 }
 ```
 
