@@ -1,6 +1,6 @@
 # AraSIF - Arabic Sentence Embeddings using Smooth Inverse Frequency (SIF)
 
-This is a minimal example for computing sentence embeddings for Arabic as described [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
+This is a minimal example for computing sentence embeddings for Arabic as described [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): [**"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**](https://www.aclweb.org/anthology/papers/W/W19/W19-4601).
 
 This code is adapted from the [original SIF implementation](https://github.com/PrincetonML/SIF_mini_demo) and is written in [python](https://www.python.org). In addition, it requires [gensim](https://radimrehurek.com/gensim), [numpy](http://numpy.org), [scipy](https://www.scipy.org), [pickle](https://docs.python.org/3/library/pickle.html), and [sklearn](https://scikit-learn.org) packages.
 
@@ -78,7 +78,7 @@ The `wikiextractor` project is maintained by [@attardi](https://github.com/attar
 
 
 #### References
-For more details about how we leverage these sentence embeddings for *incremental domain adaptation*, please see our paper: [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): **"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**.
+For more details about how we leverage these sentence embeddings for *incremental domain adaptation*, please see our paper: [Kalimuthu et. al (2019)](https://www.aclweb.org/anthology/papers/W/W19/W19-4601): [**"Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings"**](https://www.aclweb.org/anthology/papers/W/W19/W19-4601).
 
 -------
 
